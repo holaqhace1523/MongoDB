@@ -14,3 +14,44 @@
     }
   ]
 }
+
+
+/*
+use('rpg_manager');
+
+db.getCollection('personajes').insertOne({
+  nombre: "Kael",
+  clase: "Caballero",
+  nivel: 25,
+  oro: 1500,
+  inventario: [
+    { item: "Espada legendaria", cantidad: 1 },
+    { item: "Pocion de vida", cantidad: 5 }
+  ]
+});
+
+db.personajes.findOne({ nombre: "Kael" });
+
+db.personajes.insertMany([
+  { nombre: "Thorgar", clase: "Guerrero", nivel: 12, vida: 150, ataque: 25, oro: 450.50, inventario: [{ item: "Espada de Hierro", cantidad: 1 }, { item: "Escudo de Madera", cantidad: 1 }], misiones: [{ titulo: "Caza de Duendes", dificultad: "facil", recompensa: 50, estado: "completada" }] },
+  { nombre: "Elara", clase: "Mago", nivel: 15, vida: 90, mana: 200, ataque: 35, oro: 1200.00, inventario: [{ item: "Báculo Arcano", cantidad: 1 }, { item: "Poción de Vida", cantidad: 3 }], misiones: [{ titulo: "El Enigma Arcano", dificultad: "media", recompensa: 150, estado: "completada" }] },
+  { nombre: "Brunhilda", clase: "Guerrero", nivel: 18, vida: 180, ataque: 30, oro: 890.00, inventario: [{ item: "Hacha Doble", cantidad: 1 }], misiones: [{ titulo: "Defensa del Pueblo", dificultad: "media", recompensa: 120, estado: "completada" }] },
+  { nombre: "Merlinda", clase: "Mago", nivel: 10, vida: 80, mana: 150, ataque: 28, oro: 310.00, inventario: [{ item: "Varita Mágica", cantidad: 1 }], misiones: [] },
+  { nombre: "Sylvan", clase: "Arquero", nivel: 14, vida: 110, precision: 95, ataque: 22, oro: 620.00, inventario: [{ item: "Arco Largo", cantidad: 1 }, { item: "Flechas", cantidad: 50 }], misiones: [{ titulo: "Rastreo en el Bosque", dificultad: "facil", recompensa: 60, estado: "completada" }] },
+  { nombre: "Draven", clase: "Arquero", nivel: 8, vida: 95, precision: 88, ataque: 18, oro: 150.00, inventario: [], misiones: [] },
+  { nombre: "Nyx", clase: "Mago", nivel: 20, vida: 100, mana: 250, ataque: 40, oro: 2500.00, inventario: [{ item: "Tomo de Sombras", cantidad: 1 }], misiones: [{ titulo: "El Dragón Despierto", dificultad: "legendaria", recompensa: 1000, estado: "aceptada" }] }
+]);
+
+
+db.personajes.updateOne(
+  { nombre: "Thorgar" },
+  { $inc: { oro: 500 } }
+);
+
+
+
+db.personajes.findOne(
+  { nombre: "Thorgar" },
+  { nombre: 1, oro: 1, _id: 0 }
+);
+*/
