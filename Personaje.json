@@ -1,0 +1,16 @@
+{
+  "nombre": "Kael",
+  "clase": "Caballero",
+  "nivel": 25,
+  "oro": 1500,
+  "inventario": [
+    {
+      "item": "Espada legendaria",
+      "cantidad": 1
+    },
+    {
+      "item": "Pocion de vida",
+      "cantidad": 5
+    }
+  ]
+}
